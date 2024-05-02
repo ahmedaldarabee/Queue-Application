@@ -175,7 +175,7 @@ public class Queue {
     }
 
     private static void thirdTaskQueue(){
-        System.out.print("\nPlease Enter The Size Of Queue: ");
+        System.out.print("\nPlease Enter The Size Of First Queue: ");
         int sizeFirstQueue = readElement.nextInt();
 
         Queue queueFirst = new Queue(sizeFirstQueue);
@@ -215,7 +215,7 @@ public class Queue {
 
     private static void secondTaskQueue() {
 
-        System.out.print("\nPlease Enter The Size Of First Queue: ");
+        System.out.print("\nPlease Enter The Size Of Queue: ");
         int sizeQueue = readElement.nextInt();
         Queue objQueue = new Queue(sizeQueue);
         
