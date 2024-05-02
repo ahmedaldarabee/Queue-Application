@@ -167,13 +167,15 @@ public class Queue {
     private static void showTaskInfo() {
 
         System.out.println("I'm have Three type of tasks to be as:");
+        
         System.out.println("\nTask #1: related to find minimum and maximum numbers then show the summation of these numbers ");
         System.out.println("Task #2: related to deleted specific number after added list of numbers ");
         System.out.println("Task #3: related to provide sorting to element then do merging to two queue in one sorted queue elements ");
+    
     }
 
     private static void thirdTaskQueue(){
-        System.out.print("\nPlease Enter The Size Of First Queue: ");
+        System.out.print("\nPlease Enter The Size Of Queue: ");
         int sizeFirstQueue = readElement.nextInt();
 
         Queue queueFirst = new Queue(sizeFirstQueue);
@@ -271,6 +273,7 @@ public class Queue {
         }else{
 
             System.out.println("\nEnter needed item here");
+            
             for(int i = 0 ; i < size ; i++){
                 System.out.print("\nEnter data #" + (i+1) + " : ");
                 data = readElement.nextInt();
@@ -282,8 +285,10 @@ public class Queue {
     private static void optionCase(String answer , Queue queueObj) {
         
         if(answer.equalsIgnoreCase("Yes")){
+            
             System.out.print("\nEnter needed option here: ");
             int option = readElement.nextInt();
+            
             switch(option){
                 case 1:
                     queueObj.QueueMax();
@@ -311,10 +316,13 @@ public class Queue {
     }
 
     private static void optionShow() {
+        
         System.out.println("\nFinally , do you want to know the: ");
         System.out.println("1.Maximum number");
         System.out.println("2.Minimum number");
+        
         System.out.println("3.Summation to all numbers");
         System.out.println("4.display to all numbers");
+        
     }
 }
