@@ -135,6 +135,7 @@ public class Queue {
     
     public static void main(String[] args) {
         System.out.println("\nHello , Welcome in my java application! \n");
+        
         showTaskInfo();
         System.out.print("\nNow based on these info do you want to test ability of these task (Yes/No) ? ");
         String result = readElement.next();
@@ -159,7 +160,7 @@ public class Queue {
             return;
         }
         
-        System.out.println("\nOkay as you want and thank you for visit us!");
+        System.out.println("\nDone and thank you for visit us!");
     }
 
 
