@@ -160,7 +160,7 @@ public class Queue {
             return;
         }
         
-        System.out.println("\nDone and thank you for visit us!");
+        System.out.println("\nAs you want and thank you for visit us!");
     }
 
 
